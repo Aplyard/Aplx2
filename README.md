@@ -4,9 +4,9 @@
    
 A simple 2% keyboard for osu!. Designed to be assembled as a sandwich with a Pro Micro, using M3 x 16mm screws, your choice of MX- or Alps-compatible switches, and 1N4148 diodes.   
 
-****Layout**:**  
+**Layout:**  
 The default layout is: Z , X .
-Used pins can be found in `config.h`. All ProMicro pins can be found [here](https://golem.hu/article/pro-micro-pinout/).
+Used pins can be found in `config.h`. All ProMicro pins can be found [here](https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/ProMicro16MHzv1.pdf).
 
 * Keyboard Maintainer: [Aplyard](https://github.com/Aplyard)
 * Hardware Supported: Pro Micro (ATmega32U4)
@@ -14,12 +14,12 @@ Used pins can be found in `config.h`. All ProMicro pins can be found [here](http
 
 Make example for this keyboard (after setting up your build environment):
 
-     make aplx2:default
+     make handwired/aplx2:default
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
 ---  
-****Designed in**:**  
+**Designed in:**  
 Fusion360     
 [Keyboard Plate & Case Builder](http://builder.swillkb.com/)  
  
